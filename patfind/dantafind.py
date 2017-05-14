@@ -7,15 +7,6 @@ import pickle
 from fuzzyfinder import fuzzyfinder
 
 
-# def  get_names():
-#     with open('dantastudy.csv') as csvfile:
-#         csvreader = csv.reader(csvfile)
-#         pat_list = []
-#         for row in csvreader:
-#             patient = row[0].lower()
-#             pat_list.append(patient)
-#     return pat_list
-
 def main():
     fn = os.path.join(os.path.dirname(__file__), 'patients.py')
     with open(fn, 'rb') as patpick:

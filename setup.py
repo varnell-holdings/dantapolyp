@@ -10,6 +10,7 @@ setup(
     install_requires=['fuzzyfinder'],
     author='J Tillett',
     author_email='tillett1957@gmail.com',
+    include_package_data=True,
     package_data={
         'patfind': ['danta_study.csv'],
     },

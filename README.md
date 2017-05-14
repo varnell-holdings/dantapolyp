@@ -1,1 +1,1 @@
-Find if an entered string is in a list of patientsenrolled in Matk Danta's polyp study.
+Find if an entered string is in a list of patients enrolled in Mark Danta's polyp study.
